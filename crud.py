@@ -24,6 +24,7 @@ def delete_student(id):
     if id in student:
         del student[id]
         print(f"student with id {id} deleted")
+
     else:
         print("student not found")
 
