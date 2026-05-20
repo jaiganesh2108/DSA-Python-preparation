@@ -5,4 +5,4 @@ public class AreaofRectangle {
         int area = length * width;
         System.out.println("the area of the rectangle is: "+ area);
     }
-} ///
+} 
