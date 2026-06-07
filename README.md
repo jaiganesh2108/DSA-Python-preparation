@@ -5,4 +5,6 @@
 
 <div align="center">
     Array / List
+    LeetCode Problems solved: 9
 </div>
+
