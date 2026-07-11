@@ -8,13 +8,9 @@ for i in my_array:
 print(min_val)
 
 my_arr = [7,12,9,4,11]
-target = 4
+target = [4, 11]
 seen = set()
 for i in my_arr:
-    if i == target:
+    if i in target:
         print(True)
-        break
     seen.add(i)
-    print(seen)
-else:
-    print(False)
