@@ -2,7 +2,7 @@ def getsecondlargest(my_arr):
     n = len(my_arr)
     my_arr.sort()
     print(my_arr)
-    for i in range(n -2, -1, -1):
+    for i in range(n-2, -1, -1):
         if my_arr[i] != my_arr[n-1]:
             return my_arr[i]
     return -1
