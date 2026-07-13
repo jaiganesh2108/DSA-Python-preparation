@@ -9,3 +9,4 @@ def thirdlargest(arr):
 if __name__ == "__main__":
     arr = [12, 35, 1, 10, 34, 1]
     print(thirdlargest(arr))
+    
