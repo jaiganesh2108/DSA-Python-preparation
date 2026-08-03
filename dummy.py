@@ -6,3 +6,8 @@ print(73*39+47%3)
 
 print("Hi", "Hi", sep="...", end="...")
 print("Hi")
+
+sum = 0
+for i in range(0, 11):
+    sum += i
+    print(sum)
