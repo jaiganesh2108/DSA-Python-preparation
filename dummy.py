@@ -3,3 +3,6 @@ print(2+3)
 print("laptop", "desktop", "tablet", "smartphone", sep=".")
 print("jai", "ganesh", end=" ")
 print(73*39+47%3)
+
+print("Hi", "Hi", sep="...", end="...")
+print("Hi")
