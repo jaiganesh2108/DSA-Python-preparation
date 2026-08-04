@@ -1,19 +1,28 @@
-print("2+3",end="=")
-print(2+3)
-print("laptop", "desktop", "tablet", "smartphone", sep=".")
-print("jai", "ganesh", end=" ")
-print(73*39+47%3)
+for i in range(1,21):
+    for j in range(1,21):
+        if i == j:
+            print(i,j)
 
-print("Hi", "Hi", sep="...", end="...")
-print("Hi")
+for i in range(1,21):
+    for j in range(-21,-1):
+        print(i,j)
 
-sum = 0
-for i in range(0, 11):
-    sum += i
-    print(sum)
+for i,j in zip(range(1,21), range(-21,-1)):
+    print(i,j)
 
-def main(a,b):
-    for i in range(1,11,1):
-        print(i,a,b)
+print("this is the \n new line")
+print("this is the\ttab space")
+print("this is the backslash \\")
 
-main(10,20)
+a = int(23)
+b = float(74.3)
+print(a,b, sep=",")
+
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
+
+    
