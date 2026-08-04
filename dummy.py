@@ -30,3 +30,7 @@ while i < 6:
 #print(" this is the backslash: \\")
 #print("It's Hero Time! \n\t - Ben 10")
 
+import keyword
+
+print(keyword.kwlist)
+print(type(i))
