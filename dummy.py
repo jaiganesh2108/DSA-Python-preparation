@@ -1,36 +1,19 @@
-for i in range(1,21):
-    for j in range(1,21):
-        if i == j:
-            print(i,j)
+x = 50
+print("x =", x, "\t", "type:", type(x))
 
-for i in range(1,21):
-    for j in range(-21,-1):
-        print(i,j)
+x = 50.0
+print("x =", x, "\t", "type:", type(x))
 
-for i,j in zip(range(1,21), range(-21,-1)):
-    print(i,j)
+def add(x: int, y: int) -> float:
+    return x / y
 
-#print("this is the \n new line")
-#print("this is the\ttab space")
-#print("this is the backslash \\")
+output = add(5, 10)
+print("Output:", output, "\t", "type:", type(output))
 
-#a = int(23)
-#b = float(74.3)
-#print(a,b, sep=",")
+name = "jaiganesh"
+print(name[0], name[8])
 
-i = 0
-while i < 6:
-    i += 1
-    if i == 3:
-        continue
+list = ["jai", 100, "python", "programmer"]
+
+for i in list:
     print(i)
-
-#print('this is shiva\'s code')
-#print(" He says, \"this is my phone\"")
-#print(" this is the backslash: \\")
-#print("It's Hero Time! \n\t - Ben 10")
-
-import keyword
-
-print(keyword.kwlist)
-print(type(i))
