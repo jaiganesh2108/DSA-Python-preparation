@@ -17,3 +17,5 @@ list = ["jai", 100, "python", "programmer"]
 
 for i in list:
     print(i)
+
+"""this is the testing program for python so just practice for my self learning and also for my future purpose"""
