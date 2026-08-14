@@ -17,4 +17,3 @@ list = ["jai", 100, "python", "programmer"]
 
 for i in list:
     print(i)
-
