@@ -1,8 +1,5 @@
-def add():
-    a = int(input())
-    b = int(input())
-    return (a+b)
+def area_of_rectangle(length, width):
+    return length * width
 
-sum1 = add()
-print(sum1)
-add()
+rectangle_area = area_of_rectangle(5,10)
+print(f"the area of the rectangle is: {rectangle_area}")
