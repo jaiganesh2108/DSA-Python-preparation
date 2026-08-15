@@ -1,8 +1,5 @@
-a = "aBCDE"
-
-s = "A" + a[1:4]
-print(s)
-
-del s
-print(s)
-print(a)
+s = "ABCDEF"
+print(s[1:4])    
+print(s[:3])     
+print(s[3:])    
+print(s[::-1])
