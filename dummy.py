@@ -7,3 +7,6 @@ print(s.replace("python", "Quantum"))
 name = "jane"
 age = 25
 print(f"name: {name}, age: {age}")
+
+s = "My name is {} and I am {} years {}.".format( "Emily", 22, "old")
+print(s)
