@@ -1,12 +1,12 @@
-s = "I love python programming"
-print(s[-3:0:-1])
+dict = {"name": "jai", "age": 21}
+print(dict)
 
-a = [1,2,3]
-print(a)
+dict["name"] = "jg"
+print(dict)
 
-a = list((1,2,3,"jai"))
-print(a)
+list = [1,2,3,4]
+list[2] = 10
+print(list)
 
-a = [1,2]
-a.append(3)
-print(a)
+dict["age"] = 10
+print(dict)
