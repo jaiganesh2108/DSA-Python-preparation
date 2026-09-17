@@ -17,3 +17,4 @@ cursor.close()
 connection.close()
 
 print("database connected successfully!")
+print("users table created successfully!")
