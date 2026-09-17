@@ -18,3 +18,4 @@ connection.close()
 
 print("database connected successfully!")
 print("users table created successfully!")
+print("database connection closed successfully!")
