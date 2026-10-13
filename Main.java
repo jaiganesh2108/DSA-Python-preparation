@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("java is fun!");
-        System.out.println("this is the first print");
+        int age = 21;
         String name = "Jai";
-        String lastname = "ganesh";
-        int num;
-        num = 10;
-        float myFloat;
-        final boolean isBoolean = true;
-        myFloat = 3e15f;
-        System.out.println(isBoolean);
-        System.out.println(myFloat);
-        System.out.println(num);
-        System.out.println(name + " " + lastname);
-        System.out.println("this is just to print this line");
+        float height = 5.9f;
+        boolean isStudent = true;
+        System.out.println("Name:" + name + ", Age:" + age + ", Height:" + height + ", Student:" + isStudent);
+        if (age >= 18) {
+            System.out.println(name + " is a adult.");
+        }
+        else if (age < 18) {
+            System.out.println(name + " is not an adult.");
+        }
+        else {
+            System.out.println("Invalid age.");
+        }
+        System.out.println("Hello, World!");
     }
 }
