@@ -1,19 +1,17 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int age = 21;
-        String name = "Jai";
-        float height = 5.9f;
-        boolean isStudent = true;
-        System.out.println("Name:" + name + ", Age:" + age + ", Height:" + height + ", Student:" + isStudent);
-        if (age >= 18) {
-            System.out.println(name + " is a adult.");
-        }
-        else if (age < 18) {
-            System.out.println(name + " is not an adult.");
-        }
-        else {
-            System.out.println("Invalid age.");
-        }
-        System.out.println("Hello, World!");
+
+        Scanner input = new Scanner(System.in);
+         
+         System.out.println("== Student informations ==");
+
+         String name = input.nextLine();
+         int age = input.nextInt();
+
+         System.out.println("Name:" + name);
+         System.out.println("Age:" + age);
+
     }
 }
