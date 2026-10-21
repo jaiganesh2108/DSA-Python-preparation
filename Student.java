@@ -18,5 +18,13 @@ public class Student {
         System.out.println("Department:" + department);
         System.out.println("Mark:" + Mark);
 
+        int age = 20;
+        int newage = 20;
+        if (age == newage) {
+            System.out.println("Age is equal to 20");
+        }
+        else {
+            System.out.println("Age is not equal to 20");
+        }
     }
 }
